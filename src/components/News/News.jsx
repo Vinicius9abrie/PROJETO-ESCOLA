@@ -11,7 +11,7 @@ export default function News() {
           return (
             <div className="news" key={index}>
               <div className="news-foto">
-                <img src={noticia.foto} alt="foto da noticia"></img>
+                <img src={noticia.foto} loading="lazy" alt="foto da noticia"></img>
               </div>
               <div className="news-content">
                 <div className="news-category">{noticia.categoria}</div>

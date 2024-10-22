@@ -37,7 +37,7 @@ export default function Feature(props) {
                 </Button>
               </div>
             </div>
-            <img className="feature-img" src={fotos[index]} alt={feature.title} />
+            <img className="feature-img" src={fotos[index]} loading='lazy' alt={feature.title} />
           </div>
         );
       })}

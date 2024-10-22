@@ -18,7 +18,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="contact-image">
-        <img src={contatoImg} alt="mulher falando no telefone"></img>
+        <img src={contatoImg} loading="lazy" alt="mulher falando no telefone"></img>
       </div>
     </div>
   );
