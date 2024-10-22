@@ -20,7 +20,8 @@ const images = [tdeeFoto, waterFoto];
 export default function Home() {
     const location = useLocation();
     console.log(location.state)
-    const {username,genero} = location.state ?? null;
+    const { username, genero } = location.state || { username: 'visitante', genero: 'masculino' };
+
 
     return (
         <>
@@ -28,7 +29,7 @@ export default function Home() {
             <div className="container">
                 <div className="introduction">
                     <div className="introTitle">
-                        <h1 className="archivo title">NutriCompass, seja {genero == "masculino" ? "bem-vindo" : "bem vinda"} {username}!</h1>
+                        <h1 className="archivo title">NutriCompass, seja {genero == "feminino" ? "bem-vinda" : "bem vindo"} {username || "Visitante"}!</h1>
                         <p className="content-text">
                             Navegue pelo mundo da nutrição com nosso guia
                             completo! Aqui, oferecemos dicas práticas, receitas
