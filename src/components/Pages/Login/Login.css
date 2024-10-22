@@ -1,0 +1,23 @@
+.loginPage{
+    background-color: #f0f0f0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container{
+    background-color: #fff;
+    width: 60%;
+    height: 60%;
+    padding: 20px;
+    transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+}
+.login-container:hover{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

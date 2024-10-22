@@ -1,0 +1,49 @@
+
+.inputGroup{
+  display:flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+.inputGroup label{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.inputGroup select {
+  appearance: none; /* Remove o estilo padrão */
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  font-size: 18px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.inputGroup select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+.inputGroup input {
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  font-size: 18px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  outline: none;
+}
+
+.inputGroup input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}

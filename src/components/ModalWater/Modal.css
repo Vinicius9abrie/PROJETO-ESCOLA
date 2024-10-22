@@ -1,0 +1,85 @@
+/* Modal.css */
+
+/* Estilos do container do modal */
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Estilos do conteúdo do modal */
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+}
+
+/* Estilos do cabeçalho do modal */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#modal-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Estilos do botão de fechar */
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: rgb(243, 122, 49);
+}
+
+/* Estilos do corpo do modal */
+.modal-body {
+  margin: 20px 0;
+}
+
+/* Estilos do input de peso */
+.weight-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.calculate-btn {
+  background-color: rgb(243, 122, 49);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.calculate-btn:hover {
+  background-color: rgb(185, 95, 39);
+}
+
+#water-intake-message {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(243, 122, 49);
+}

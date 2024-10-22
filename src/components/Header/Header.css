@@ -1,0 +1,21 @@
+.header{
+    font-family: Inter;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px;
+    height: 10vh;
+}
+.header .btns{
+    display: flex;
+}
+.logoHolderHeader {
+    width: 100px;
+    height: auto;
+}
+.logoHolderHeader  img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}

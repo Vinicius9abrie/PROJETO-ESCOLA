@@ -1,0 +1,16 @@
+footer  .content{
+  display:flex;
+  flex-direction:column;
+  gap: .8rem;
+
+}
+footer  .title{
+  font-size: 1.2rem;
+}
+footer  .page{
+  font-size: 14px;
+  color: rgb(144, 149, 160);
+}
+footer .page:hover{
+  cursor:pointer;
+}

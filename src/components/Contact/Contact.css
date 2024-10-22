@@ -1,0 +1,31 @@
+.contact-section{
+  display: flex;
+  background-color: #f37a31;
+  border-radius: 15px;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom: 7rem;
+}
+.contact-text{
+  color:white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex:1;
+}
+.contact-text h2{
+  font-size: 2rem;
+  
+}
+.contact-image{
+  display: flex;
+  align-items: center;
+  flex:1;
+}
+.contact-image img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}

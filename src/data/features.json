@@ -1,0 +1,18 @@
+{
+
+  "features":[
+    {
+    "title": "TDEE - OQUE É?",
+    "text":"TDEE, ou 'Total Daily Energy Expenditure' (Gasto Energético Total Diário), é a quantidade total de calorias que seu corpo queima em um dia.",
+    "btnText": "Saiba mais!",
+    "localFoto": "right",
+    "redirect": "#calculadora"
+  },
+  {
+    "title": "Quer saber quanta água você precisa?",
+    "text":"Saiba a quantidade ideal de água que seu corpo necessita para manter-se hidratado e saudável. Nossa ferramenta ajuda você a calcular sua ingestão diária recomendada, considerando fatores como peso, idade e nível de atividade. Mantenha-se em forma e energizado!",
+    "btnText": "Descubra!",
+    "localFoto": "left"
+  }
+]
+}

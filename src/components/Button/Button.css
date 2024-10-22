@@ -1,0 +1,28 @@
+.primary, .secondary, .big, .default, .disabled{
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-weight: 600;
+}
+.primary{
+    color: white;
+    background-color:var(--bgButton);
+}
+.secondary{
+    color: var(--bgButton);
+    background-color: white;
+    font-weight: 500;
+}
+.big{
+    font-size: 20px;
+    
+}
+.default{
+    background-color: white;
+    color: black;
+}
+.disabled{
+    background-color: rgb(243, 122, 49);
+    color: white;
+    opacity: 0.5;
+    cursor: none
+}

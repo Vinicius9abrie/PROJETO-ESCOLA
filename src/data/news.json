@@ -1,0 +1,26 @@
+{
+  "news":[
+    {
+      "titulo":"Os Benefícios do Jejum Intermitente",
+      "categoria":"Dietas",
+      "data": "Out 10, 2022",
+      "foto": "/img/news1.jpg",
+      "timespan": "5 minutos"
+    },
+    {
+      "titulo":"Superalimentos: Como Usá-los na Dieta",
+      "categoria":"Nutrição",
+      "data": "Out 15, 2024",
+      "foto": "/img/news2.jpg",
+      "timespan": "10 minutos"
+    },
+    {
+      "titulo":"Mitos e Verdades sobre a Proteína Vegetal",
+      "categoria":"Alimentos",
+      "data": "Out 20, 2024",
+      "foto": "/img/news3.jpg",
+      "timespan": "3 minutos"
+    }
+    
+  ]
+}

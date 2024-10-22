@@ -1,0 +1,22 @@
+[
+    {
+      "email": "vinicius@example.com",
+      "username": "Vinicius",
+      "password": "12345",
+      "genero": "masculino"
+    },
+    {
+      "email": "julia@example.com",
+      "username": "Julia",
+      "password": "abcde",
+      "genero": "feminino"
+
+    },
+    {
+      "email": "lucas@example.com",
+      "username": "Lucas",
+      "password": "54321",
+      "genero": "masculino"
+    }
+  ]
+  

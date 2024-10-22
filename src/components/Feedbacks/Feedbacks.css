@@ -1,0 +1,75 @@
+.feedbacks-section{
+    background-color: #f9ded3;
+    padding: 50px;
+}
+.feedbacks{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.feedbacks-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feedbacks-title{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+.feedbacks-section  .logo{
+    width: 35px;
+}
+.arrow-left,.arrow-right{
+    color: var(--bgButton);
+    background-color: #fef6f0;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.feedbacks-content{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+    margin: 0 auto;
+}
+.feedbacks-section  .content{
+    font-size: 24px;
+    text-align:center;
+}
+.feedbacks button:hover{
+    cursor:pointer  
+}
+.person-content{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 2rem;
+    margin: 25px 0;
+}
+.person-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+}
+.person-info{
+    display: flex;
+    gap: 8px;
+}
+.person-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.person-profissao{
+    color: rgb(144, 149, 160);
+}

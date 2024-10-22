@@ -1,0 +1,30 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    margin: 100px 0
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2rem;  
+}
+.feature-title{
+    font-size: 40px;
+}
+.feature-left{
+    flex-direction: row-reverse;
+}
+.feature-img{
+    flex: 1;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
