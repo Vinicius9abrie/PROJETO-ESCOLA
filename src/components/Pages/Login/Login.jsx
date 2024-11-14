@@ -9,17 +9,12 @@ export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const location = useLocation();
   const navigate = useNavigate();
-  useEffect(()=>{
-    location.state = null;
-  })
-
 
   const handleLogin = (e) => {
     e.preventDefault();
-    const user = users.find((u) => u.username === email || u.email && u.password === password);
-
+    const user = users.find((u) => u.username === email || u.email === email && u.password === password);
+    console.log(user);
     if (user) {
       navigate('/dicas', { state: { username: user.username, genero: user.genero } });
     } else {

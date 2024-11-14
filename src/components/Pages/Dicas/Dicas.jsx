@@ -14,9 +14,10 @@ function Dicas() {
   useEffect(()=> {
     if(state){  
       setuser(state.username);
+      console.log(state)
       console.log(user);
     }
-  },[state])
+  },[state,user])
 
 
 
