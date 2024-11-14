@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // para navegação entre páginas
+import React, { useEffect, useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom'; // para navegação entre páginas
 import users from '/src/data/users.json'; // importe o arquivo JSON com os usuários
 import InputGroup from '../../Calculadora/InputGroup/InputGroup';
 import "./Login.css"
@@ -9,19 +9,24 @@ export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const location = useLocation();
   const navigate = useNavigate();
+  useEffect(()=>{
+    location.state = null;
+  })
+
 
   const handleLogin = (e) => {
     e.preventDefault();
-
-    // Verificar se o usuário existe no arquivo JSON
-    const user = users.find((u) => u.email === email && u.password === password);
+    const user = users.find((u) => u.username === email || u.email && u.password === password);
 
     if (user) {
-      // Redirecionar para a página principal ou dashboard, passando informações do usuário
-      navigate('/', { state: { username: user.username, genero: user.genero } });
+      navigate('/dicas', { state: { username: user.username, genero: user.genero } });
     } else {
       setError('Usuário ou senha incorretos');
+      setTimeout(() => {
+        setError('');
+      }, 3000);
     }
   };
   return (
@@ -30,6 +35,7 @@ export default function Login() {
             <InputGroup id="user" type="email" onChange={setEmail} label="Usuário:" placeholder="Digite seu email"></InputGroup>
             <InputGroup id="senha" type="password" onChange={setPassword} label="Senha:" placeholder="Digite sua senha"></InputGroup>
             <Button variant="primary" onClick={handleLogin}>Login</Button>
+            {(error) ? <p style={{color: "red"}}>{error}</p> : <></>}
         </div>
     </div>
   )

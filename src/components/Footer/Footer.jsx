@@ -4,6 +4,7 @@ import "./Footer.css"
 import logo from "../../assets/logo.webp"
 export default function Footer(){
 
+
   return(
     <footer>
     <div className="logoHolderFooter">

@@ -12,24 +12,19 @@ import Feedbacks from "../../Feedbacks/Feedbacks";
 import Calculadora from "../../Calculadora/Calculadora";
 import Contact from "../../Contact/Contact";
 import News from "../../News/News";
-import Footer from "../../Footer/Footer";
 import Header from "../../Header/Header";
-import { useLocation } from "react-router-dom";
-
+import Footer from "../../Footer/Footer";
 const images = [tdeeFoto, waterFoto];
 export default function Home() {
-    const location = useLocation();
-    console.log(location.state)
-    const { username, genero } = location.state || { username: 'visitante', genero: 'masculino' };
 
 
     return (
         <>
-        <Header />
+        <Header></Header>
             <div className="container">
                 <div className="introduction">
                     <div className="introTitle">
-                        <h1 className="archivo title">NutriCompass, seja {genero == "feminino" ? "bem-vinda" : "bem vindo"} {username || "Visitante"}!</h1>
+                        <h1 className="archivo title">NutriCompass, seja bem vindo!</h1>
                         <p className="content-text">
                             Navegue pelo mundo da nutrição com nosso guia
                             completo! Aqui, oferecemos dicas práticas, receitas
@@ -97,7 +92,7 @@ export default function Home() {
                 </div>
                 <News></News>
             </div>
-            <Footer></Footer>
+        <Footer></Footer>
         </>
     );
 }

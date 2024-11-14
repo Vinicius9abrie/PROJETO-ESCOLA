@@ -1,0 +1,95 @@
+{
+    "alimentos": [
+        {
+            "title": "Tigela de salmão",
+            "image": "/img/prato-salmao.jpg",
+            "ingredientes": [
+                "Rúcula",
+                "Tomate-cereja",
+                "Queijo feta",
+                "Azeitonas",
+                "Cebola roxa",
+                "Nozes",
+                "Molho balsâmico"
+            ]
+        },
+        {
+            "title": "Salada de Quinoa",
+            "image": "/img/prato-quinoa.jpg",
+            "ingredientes": [
+                "Quinoa",
+                "Tomate picado",
+                "Pepino",
+                "Cebola roxa",
+                "Hortelã",
+                "Limão",
+                "Azeite"
+            ]
+        },
+        {
+            "title": "Wrap de Frango",
+            "image": "/img/prato-frango.jpg",
+            "ingredientes": [
+                "Tortilla",
+                "Frango grelhado",
+                "Alface",
+                "Tomate",
+                "Cenoura ralada",
+                "Molho de iogurte",
+                "Cebolinha"
+            ]
+        },
+        {
+            "title": "Bowl de Frutas Tropicais",
+            "image": "/img/prato-frutas.jpg",
+            "ingredientes": [
+                "Manga",
+                "Abacaxi",
+                "Morango",
+                "Banana",
+                "Granola",
+                "Mel",
+                "Folhas de hortelã"
+            ]
+        },
+        {
+            "title": "Risoto de Cogumelos",
+            "image": "/img/prato-risoto.jpg",
+            "ingredientes": [
+                "Arroz arbóreo",
+                "Cogumelos variados",
+                "Caldo de legumes",
+                "Queijo parmesão",
+                "Cebola",
+                "Manteiga",
+                "Salsinha"
+            ]
+        },
+        {
+            "title": "Taco de Carne",
+            "image": "/img/prato-taco.jpg",
+            "ingredientes": [
+                "Tortilla de milho",
+                "Carne moída",
+                "Alface",
+                "Tomate",
+                "Queijo ralado",
+                "Sour cream",
+                "Pimenta jalapeño"
+            ]
+        },
+        {
+            "title": "Pizza Margherita",
+            "image": "/img/prato-pizza.jpg",
+            "ingredientes": [
+                "Massa de pizza",
+                "Molho de tomate",
+                "Muçarela",
+                "Tomate",
+                "Manjericão fresco",
+                "Azeite de oliva",
+                "Orégano"
+            ]
+        }
+    ]
+}

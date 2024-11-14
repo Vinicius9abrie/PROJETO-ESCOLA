@@ -1,22 +1,170 @@
 [
-    {
-      "email": "vinicius@example.com",
-      "username": "Vinicius",
-      "password": "12345",
-      "genero": "masculino"
-    },
-    {
-      "email": "julia@example.com",
-      "username": "Julia",
-      "password": "abcde",
-      "genero": "feminino"
-
-    },
-    {
-      "email": "lucas@example.com",
-      "username": "Lucas",
-      "password": "54321",
-      "genero": "masculino"
-    }
-  ]
-  
+  {
+    "email": "vinicius@example.com",
+    "username": "Vinicius",
+    "password": "12345",
+    "genero": "masculino"
+  },
+  {
+    "email": "yan@example.com",
+    "username": "Yan",
+    "password": "12345",
+    "genero": "masculino"
+  },
+  {
+    "email": "yago@example.com",
+    "username": "Yago",
+    "password": "12345",
+    "genero": "masculino"
+  },
+  {
+    "email": "ronald@example.com",
+    "username": "Ronald",
+    "password": "12345",
+    "genero": "masculino"
+  },
+  {
+    "email": "sthefany@example.com",
+    "username": "Sthefany",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "taissa@example.com",
+    "username": "Taissa",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "lara@example.com",
+    "username": "Lara",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "laura@example.com",
+    "username": "Laura",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "eduardo@example.com",
+    "username": "Eduardo",
+    "password": "12345",
+    "genero": "masculino"
+  },
+  {
+    "email": "isabella@example.com",
+    "username": "Isabella",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "isabela@example.com",
+    "username": "Isabela",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "nathaly@example.com",
+    "username": "Nathaly",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "kevin@example.com",
+    "username": "Kevin",
+    "password": "12345",
+    "genero": "masculino"
+  },
+  {
+    "email": "leandro@example.com",
+    "username": "Leandro",
+    "password": "12345",
+    "genero": "masculino"
+  },
+  {
+    "email": "betania@example.com",
+    "username": "Betânia",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "maria@example.com",
+    "username": "Maria",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "viviane@example.com",
+    "username": "Viviane",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "vivian@example.com",
+    "username": "Vivian",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "mateus@example.com",
+    "username": "Mateus",
+    "password": "12345",
+    "genero": "masculino"
+  },
+  {
+    "email": "matheus@example.com",
+    "username": "Matheus",
+    "password": "12345",
+    "genero": "masculino"
+  },
+  {
+    "email": "eloisa@example.com",
+    "username": "Eloisa",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "bianca@example.com",
+    "username": "Bianca",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "jully@example.com",
+    "username": "Jully",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "murilo@example.com",
+    "username": "Murilo",
+    "password": "12345",
+    "genero": "masculino"
+  },
+  {
+    "email": "rafaela@example.com",
+    "username": "Rafaela",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "carol@example.com",
+    "username": "Carol",
+    "password": "12345",
+    "genero": "feminino"
+  },
+  {
+    "email": "davi@example.com",
+    "username": "Davi",
+    "password": "12345",
+    "genero": "masculino"
+  },
+  {
+    "email": "isaac@example.com",
+    "username": "Isaac",
+    "password": "12345",
+    "genero": "masculino"
+  }
+]

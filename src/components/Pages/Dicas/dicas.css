@@ -1,0 +1,20 @@
+.imgDicas-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0 10vh 0;
+}
+.container-Dicas{
+    width: 90%;
+    margin: 0 auto;
+}
+.cards-container{
+    display: flex;
+    margin: 2.5rem 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem
+}
+.nameDicas{
+    color:var(--bgButton)
+}
